@@ -18,7 +18,7 @@ fs.readFile(file, (err, data) => {
     if (err) throw err;
     console.log('APENDED with: ' + randomValue + '\n');
 
-    // Read the file again
+    // Read the file again and log it
     fs.readFile(file, (err, data) => {
       if (err) throw err;
       console.log('AFTER:\n' + data.toString() + '\n');
