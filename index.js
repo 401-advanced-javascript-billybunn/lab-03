@@ -1,7 +1,7 @@
 'use strict';
 
-// const fileReader = require('./lib/reader.js');
-const fileReader = require('./lib/reader-promises');
+const fileReader = require('./lib/reader.js');
+const fileReaderWithPromises = require('./lib/reader-promises');
 
 
 // Obtain and assert input
@@ -19,7 +19,10 @@ fileReader(files, (err,data) => {
 });
 
 // Task 2: Use promises to read 3 files
-
+fileReaderWithPromises(files, (err,data) => {
+  if ( err ) { throw err; }
+  console.log('From Callback:', data);
+});
 
 // Task 3: Use async/await to read 3 files
 
