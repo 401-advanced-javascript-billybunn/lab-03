@@ -20,10 +20,15 @@
 * [jsdoc](http://xyz.com)
 
 ### Modules - Part 1
-_Vehicles_
 #### `edit-file.js`
 ##### Exported Values and Methods
-Uses constructors to build Car and Motorcycle objects. These constructors inherit properties/methods from a Vehicle constructor using prototype inheritance.
+Using the node CLI (see instruction below), reads, adds to, and reads a file again. Nested node filesystem (`fs.`) functions accomplish this and have the results logged to the console.
+
+### Modules - Part 2
+##### Exported Values and Methods
+`reader.readAll([...files], callback) -> number`
+Given an array of files and a callback error handler function, reads the file name and contents of each file.
+The callback function takes `(err, data)`. If there is an error, the error handler will run.
 
 ### Modules - `list/`
 _add modules for list folder here_
