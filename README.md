@@ -1,0 +1,51 @@
+![CF](http://i.imgur.com/7v5ASc8.png) LAB 03
+=================================================
+
+#### Notes for grading:
+* I completed all of **Part 1 - Read and Write to a File**. 
+* I started **Part 2 - Reading Multiple Files**.
+  * I only completed this up to **Task 1: Fix the broken code**.
+  * I figured out Task 1 pretty quickly, but spent a lot of time trying to get the first test to pass (there was an issue with the mock included in the demo code).
+* Still working on getting JSdocs up and running.
+
+## LAB: Class 03
+
+### Author: Billy Bunn
+
+### Links and Resources
+* [repo](https://github.com/401-advanced-javascript-billybunn/lab-03)
+* [travis](https://www.travis-ci.com/401-advanced-javascript-billybunn/lab-03)
+
+#### Documentation
+* [jsdoc](http://xyz.com)
+
+### Modules - Part 1
+_Vehicles_
+#### `edit-file.js`
+##### Exported Values and Methods
+Uses constructors to build Car and Motorcycle objects. These constructors inherit properties/methods from a Vehicle constructor using prototype inheritance.
+
+### Modules - `list/`
+_add modules for list folder here_
+
+###### `foo(thing) -> string`
+Usage Notes or examples
+
+###### `bar(array) -> array`
+Usage Notes or examples
+
+### Setup
+#### `.env` requirements
+* `npm i` - install dependencies
+
+#### Running the app (with the node CLI)
+* `node edit-file files/test.txt` - Reads a file, appends a random word to that file, reads the file again
+* `node index.js files/1.txt files/2.txt files/3.txt` - Reads the file names and contents of 3 files
+
+#### Tests
+* `npm test` to run tests
+* **Assertions**: _to do_
+* **Assertions to be made**: _to do_
+
+#### UML
+_UML image goes here_
