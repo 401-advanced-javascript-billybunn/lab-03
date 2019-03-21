@@ -27,17 +27,9 @@ Using the node CLI (see instruction below), reads, adds to, and reads a file aga
 ### Modules - Part 2
 ##### Exported Values and Methods
 `reader.readAll([...files], callback) -> number`
+
 Given an array of files and a callback error handler function, reads the file name and contents of each file.
 The callback function takes `(err, data)`. If there is an error, the error handler will run.
-
-### Modules - `list/`
-_add modules for list folder here_
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
