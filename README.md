@@ -17,7 +17,7 @@
 * [travis](https://www.travis-ci.com/401-advanced-javascript-billybunn/lab-03)
 
 #### Documentation
-* [jsdoc](http://xyz.com)
+* [jsdoc](http://xyz.com) **not working yet**
 
 ### Modules - Part 1
 #### `edit-file.js`
